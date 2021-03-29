@@ -1,0 +1,315 @@
+#navBar {
+    background-color: #281923;
+    opacity: 61%;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+
+.navitm {
+    color: white;
+    white-space: nowrap;
+    padding: 16px 16px;
+}
+
+.navitm a {
+    color: white;
+    font-size: 20px;
+}
+
+#Search, #Profile, #Cart {
+    background-color: #a80e0e;
+}
+
+.navitm:hover {
+    border-top: 6px solid #ffaa00;
+}
+
+.cartCount {
+    background-color: #ffaa00;
+    color: #a80e0e;
+    font-weight: bold;
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+}
+
+.navbar-brand img {
+    height: 70px;
+}
+
+.addItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.addBtn {
+    background-color: white;
+    border-color: #ffaa00;
+    border-width: 3px;
+    border-radius: 7px;
+    width: 3rem;
+    height: 2rem;
+    color: #a80e0e;
+}
+
+#itemNum {
+    pxound-color: white;
+    border-color: #ffaa00;
+    background-color: white;
+    border-width: 3px;
+    border-radius: 7px;
+    width: 3rem;
+    color: #a80e0e;
+    text-align: center;
+    outline: transparent;
+}
+
+.yellowBtn {
+    background-color: #ffaa00;
+    border-radius: 100px;
+    height: fit-content;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    margin-right: 0.25rem;
+    border: transparent;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    outline: transparent;
+}
+
+.yellowBtn:hover {
+    background-color: yellow;
+    color: #a80e0e;
+}
+
+.addBtn:hover {
+    background-color: #ffaa00;
+}
+
+#itemNum:hover {
+    background-color: #ffaa00;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: #DDD;
+}
+
+tr:hover {
+    background-color: #DDD;
+}
+
+.pdXY {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#addReview {
+    height: 0;
+    opacity: 0%;
+    margin-left: 70rem;
+    transition: margin-left 2s;
+}
+
+.textField {
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.textField:focus {
+    background-color: white;
+    outline: transparent;
+    border-radius: 0px;
+}
+
+#contactInfo {
+    background-color: #a80e0e;
+    background-size: contain;
+    color: #ffffff;
+}
+
+#contactInfo li, #contactInfo a {
+    text-decoration: none;
+    color: #ffffff;
+    overflow: hidden;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.contactIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#contact {
+    padding: 0;
+}
+
+.links a, .links li {
+    width: 33%;
+    color: black;
+    text-decoration: none;
+    overflow: hidden;
+    text-align: left;
+}
+
+h3, h2 {
+    color: #a80e0e;
+}
+
+#taps .active {
+    background-color: #ffaa00;
+    color: #a80e0e;
+}
+
+#taps {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#taps a {
+    color: #a80e0e;
+}
+
+.pill:hover {
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+#partyBox {
+    background-image: url("projectImages/party.png");
+    background-position-y: -100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding-bottom: 10rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#partyBox h1 {
+    font-size: 80px;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#yellowShape {
+    background-color: #ffaa00;
+    clip-path: polygon(0 0, 100% 0%, 90% 50%, 100% 100%, 0% 100%, 10% 50%);
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    padding: 2rem 4rem 2rem 5rem;
+}
+
+#yellowShape h3 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#orderBtn {
+    display: flex;
+    background-color: #ffaa00;
+    border: transparent;
+    border-radius: 100px;
+    font-size: 20px;
+    color: #a80e0e;
+}
+
+#menuList a {
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#menuList a:hover {
+    color: #a80e0e;
+}
+
+#deliveryBox {
+    background-color: #ffaa00;
+}
+
+#red_triangle {
+    display: flex;
+    flex-direction: column;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 52%);
+    clip-path: polygon(0 0, 0 100%, 100% 52%);
+    background-color: #a80e0e;
+    width: 600px;
+    height: 260px;
+    margin-top: 10rem;
+}
+
+#red_triangle h2 {
+    font-size: 35px;
+    text-align: left;
+    margin-top: 6rem;
+    padding-left: 5rem;
+    color: #ffffff;
+}
+
+#deliveryBox2 p {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#galleryBox {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.card a, .card a:hover {
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+}
+
+.card {
+    box-shadow: 0px 10px 10px lightgrey;
+    border-radius: 50px;
+}
+
+#Testimonials {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#Testimonials p {
+    font-size: large;
+}
+
+.carousel .carousel-indicators li {
+    background-color: #ffaa00;
+    opacity: 40%;
+}
+
+.carousel .carousel-indicators .active {
+    background-color: #ffaa00;
+    opacity: 100%;
+}
+
+.add-cart {
+    background-color: #ffaa00;
+    border-radius: 100px;
+    height: fit-content;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    margin-right: 0.25rem;
+    border: transparent;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    outline: transparent;
+}
+
+.add-cart:hover {
+    background-color: yellow;
+    color: #a80e0e;
+}
