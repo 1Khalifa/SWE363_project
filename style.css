@@ -1,6 +1,6 @@
 #navBar {
     background-color: #281923;
-    opacity: 61%;
+    opacity: 70%;
     padding-right: 10rem;
     padding-left: 10rem;
 }
@@ -16,7 +16,7 @@
     font-size: 20px;
 }
 
-#Search, #Profile, #Cart {
+#Search, #Profile, #Cartn {
     background-color: #a80e0e;
 }
 
@@ -220,6 +220,10 @@ h3, h2 {
     border: transparent;
     border-radius: 100px;
     font-size: 20px;
+}
+
+#orderBtn a {
+    text-decoration: none;
     color: #a80e0e;
 }
 
@@ -246,13 +250,14 @@ h3, h2 {
     width: 600px;
     height: 260px;
     margin-top: 10rem;
+    padding-right: 5rem;
 }
 
 #red_triangle h2 {
     font-size: 35px;
     text-align: left;
     margin-top: 6rem;
-    padding-left: 5rem;
+    padding-left: 2rem;
     color: #ffffff;
 }
 
@@ -261,9 +266,10 @@ h3, h2 {
     color: #ffffff;
 }
 
-#galleryBox {
+#gallery {
     padding-left: 10rem;
     padding-right: 10rem;
+
 }
 
 .card a, .card a:hover {
@@ -277,12 +283,12 @@ h3, h2 {
     border-radius: 50px;
 }
 
-#Testimonials {
+#testimonials {
     padding-left: 10rem;
     padding-right: 10rem;
 }
 
-#Testimonials p {
+#testimonials p {
     font-size: large;
 }
 
@@ -296,7 +302,7 @@ h3, h2 {
     opacity: 100%;
 }
 
-.add-cart {
+.add-to-cart {
     background-color: #ffaa00;
     border-radius: 100px;
     height: fit-content;
@@ -309,7 +315,23 @@ h3, h2 {
     outline: transparent;
 }
 
-.add-cart:hover {
+.add-to-cart:hover {
     background-color: yellow;
     color: #a80e0e;
+}
+
+.orderNow {
+    background-color: #ffaa00;
+    color: #a80e0e;
+    border-radius: 100px;
+    border: transparent;
+    outline: transparent;
+}
+
+.closeCart {
+    background-color: #a80e0e;
+    color: white;
+    border-radius: 100px;
+    border: transparent;
+    outline: transparent;
 }
