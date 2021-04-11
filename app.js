@@ -147,7 +147,17 @@ function displayCart() {
 function plusItem() {
     ++i;
     document.getElementById("itemNum").innerHTML = i;
-@@ -106,10 +83,6 @@ function addToCart() {
+}
+function minusItem() {
+    if (i > 1) {
+        --i;
+        document.getElementById("itemNum").innerHTML = i;
+    }
+}
+function addToCart() {
+    cartCounter += i;
+    document.querySelector('.cartCount').innerHTML = cartCounter;
+    i = 1;
     document.getElementById("itemNum").innerHTML = i;
 }
 
@@ -158,4 +168,35 @@ function add() {
 
 function countChars(obj) {
     var maxLength = 500;
+    var strLength = obj.value.length;
+    document.getElementById("charNum").innerHTML = strLength + ' / ' + maxLength;
+}
+function emptyReview() {
+    document.getElementById('Review').addEventListener("keydown", function () {
+        document.getElementById('message').style.display = 'none';
+    });
+    if (document.getElementById('Review').value == '') {
+        document.getElementById('message').style.display = 'block';
+        document.getElementById('message').innerHTML = 'Please type your review';
+        document.getElementById('message').style.color = '#a80e0e';
+        return false;
+    } else
+        return true;
+}
+function checkName() {
+    if (document.getElementById('personName').value == '') {
+        document.getElementById('personName').value = 'Customer';
+        return false;
+    } else
+        return true;
+}
+function submitReview() {
+    if (checkName() == true && emptyReview() == true) {
+        document.getElementById("frm1").submit();
+    }
+}
+function slidIN() {
+    document.getElementById('addReview').style.height = 'max-content';
+    document.getElementById('addReview').style.opacity = '100%';
+    document.getElementById('addReview').style.marginLeft = '0rem';
 }
